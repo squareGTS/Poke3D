@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		120F2B0525CDA161008EFCBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F2B0425CDA161008EFCBF /* AppDelegate.swift */; };
-		120F2B0725CDA161008EFCBF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 120F2B0625CDA161008EFCBF /* art.scnassets */; };
 		120F2B0925CDA161008EFCBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F2B0825CDA161008EFCBF /* ViewController.swift */; };
 		120F2B0C25CDA161008EFCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120F2B0A25CDA161008EFCBF /* Main.storyboard */; };
 		120F2B0E25CDA167008EFCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120F2B0D25CDA167008EFCBF /* Assets.xcassets */; };
 		120F2B1125CDA167008EFCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120F2B0F25CDA167008EFCBF /* LaunchScreen.storyboard */; };
+		120F2B1A25CDA1B8008EFCBF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 120F2B1925CDA1B8008EFCBF /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		120F2B0125CDA161008EFCBF /* Poke3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poke3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		120F2B0425CDA161008EFCBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		120F2B0625CDA161008EFCBF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		120F2B0825CDA161008EFCBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		120F2B0B25CDA161008EFCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		120F2B0D25CDA167008EFCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		120F2B1025CDA167008EFCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		120F2B1225CDA167008EFCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120F2B1925CDA1B8008EFCBF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../../Downloads/art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				120F2B0425CDA161008EFCBF /* AppDelegate.swift */,
-				120F2B0625CDA161008EFCBF /* art.scnassets */,
+				120F2B1925CDA1B8008EFCBF /* art.scnassets */,
 				120F2B0825CDA161008EFCBF /* ViewController.swift */,
 				120F2B0A25CDA161008EFCBF /* Main.storyboard */,
 				120F2B0D25CDA167008EFCBF /* Assets.xcassets */,
@@ -124,8 +124,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				120F2B0725CDA161008EFCBF /* art.scnassets in Resources */,
 				120F2B1125CDA167008EFCBF /* LaunchScreen.storyboard in Resources */,
+				120F2B1A25CDA1B8008EFCBF /* art.scnassets in Resources */,
 				120F2B0E25CDA167008EFCBF /* Assets.xcassets in Resources */,
 				120F2B0C25CDA161008EFCBF /* Main.storyboard in Resources */,
 			);
@@ -287,13 +287,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95M96Z9FUT;
+				DEVELOPMENT_TEAM = AL6VB4F4G2;
 				INFOPLIST_FILE = Poke3D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.artdevelop.Poke3D;
+				PRODUCT_BUNDLE_IDENTIFIER = com.art.Poke3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +306,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95M96Z9FUT;
+				DEVELOPMENT_TEAM = AL6VB4F4G2;
 				INFOPLIST_FILE = Poke3D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.artdevelop.Poke3D;
+				PRODUCT_BUNDLE_IDENTIFIER = com.art.Poke3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
